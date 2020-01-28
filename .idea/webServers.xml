@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="26cc1584-78ec-405c-80fe-ddb674864a61" name="1" url="http://u69388.netangels.ru">
+        <fileTransfer host="u69388.netangels.ru" port="22" rootFolder="/home/u69388/raskopina.ru/www/wp-content/themes/theme" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

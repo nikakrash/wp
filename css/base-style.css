@@ -1,0 +1,488 @@
+h1, .h1 {
+    font-family: 'Gilroy', Arial, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 63px;
+    line-height: 1;
+    position: relative;
+    margin-bottom: 30px;
+}
+h1:before, .h1:before {
+    position: absolute;
+    width: 52px;
+    left: 2px; top: -51px;
+    border-top: 2px solid #F13365;
+    content: '';
+}
+.dott {
+    background: #fff;
+    display: inline-block;
+    vertical-align: baseline;
+    width: 5px; height: 5px;
+    margin-left: 4px;
+}
+h1 .dott, .h1 .dott {
+    width: 12px; height: 12px;
+    margin-bottom: -1px;
+    margin-left: 9px;
+}
+    @media  screen and (max-width: 991px) {
+        h1, .h1 { font-size: 48px; }
+        h1:before, .h1:before { top: -41px; }
+        h1 .dott, .h1 .dott {
+            width: 9px; height: 9px;
+            margin-left: 7px;
+        }
+    }
+    @media  screen and (max-width: 767px) {
+        h1, .h1 { font-size: 42px; }
+        h1 .dott, .h1 .dott {
+            width: 7px; height: 7px;
+            margin-left: 5px;
+        }
+    }
+    @media  screen and (max-width: 575px) {
+        h1, .h1 { font-size: 36px; }
+        h1:before, .h1:before { top: -31px; }
+        h1 .dott, .h1 .dott {
+            width: 5px; height: 5px;
+            margin-bottom: 0;
+        }
+    }
+.h1_inner-page {
+    padding-top: 51px;
+    font-size: 53px;
+    margin-bottom: 28px;
+}
+.h1_inner-page_blog {
+    font-size: 43px;
+}
+.h1_inner-page:before {
+    top: 0
+}
+.h1_inner-page .dott {
+    width: 10px; height: 10px;
+    margin-left: 8px;
+}
+    @media  screen and (max-width: 991px) {
+        .h1_inner-page {
+            font-size: 43px;
+            padding-top: 41px;
+        }
+        .h1_inner-page_blog {
+            font-size: 38px;
+        }
+        .h1_inner-page .dott {
+            width: 7px; height: 7px;
+            margin-left: 5px;
+        }
+    }
+    @media  screen and (max-width: 767px) {
+        .h1_inner-page {
+            font-size: 38px;
+        }
+        .h1_inner-page_blog {
+            font-size: 34px;
+        }
+        .h1_inner-page .dott {
+            width: 5px; height: 5px;
+            margin-bottom: 0;
+        }
+    }
+    @media  screen and (max-width: 575px) {
+        .h1_inner-page {
+            font-size: 32px;
+            padding-top: 31px;
+            margin-bottom: 20px;
+        }
+        .h1_inner-page_blog {
+            font-size: 28px;
+        }
+    }
+
+h2, .h2 {
+    font-family: 'Gilroy', Arial, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding-top: 31px;
+}
+h2:before, .h2:before {
+    position: absolute;
+    width: 30px;
+    left: 0; top: 0;
+    border-top: 2px solid #F13365;
+    content: '';
+}
+h2 .dott, .h2 .dott {
+    width: 7px; height: 7px;
+    margin-left: 4px;
+}
+.quest {
+    display: inline-block;
+    position: relative;
+}
+.quest:after {
+    width: 8px; height: 8px;
+    position: absolute;
+    bottom: 5px; left: 7px;
+    background: #fff;
+    content: '';
+}
+h2 .quest, .h2 .quest {
+    font-size: 39px;
+    margin-left: 11px;
+    margin-top: -1px;
+}
+    @media  screen and (max-width: 575px) {
+        h2, .h2 { font-size: 34px; }
+        h2 br, .h2 br { display: none }
+        h2 .dott, .h2 .dott {
+            width: 5px; height: 5px;
+        }
+        h2 .quest, .h2 .quest {
+            font-size: 36px;
+            margin-left: 6px;
+        }
+        .quest:after {
+            width: 7px; height: 7px;
+            bottom: 6px; left: 7px;
+        }
+    }
+
+h4, .h4 {
+    font-family: 'Gilroy', Arial, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.subtitle {
+    font-family: 'Akrobat', Arial, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #F13365;
+    text-transform: uppercase;
+    display: block;
+}
+    @media  screen and (max-width: 575px) {
+        .subtitle br { display: none }
+    }
+
+.text_color_pink {
+    color: #F13365;
+}
+.text_color_pink:before {
+    border-color: #fff
+}
+.text_color_pink .dott,
+.text_color_pink .quest:after {
+    background: #F13365;
+}
+.text_color_white {
+    color: #fff;
+}
+.section_back_dark {
+    background: #101010 !important;
+}
+.text-marker {
+    position: relative;
+    padding-left: 21px;
+}
+.text-marker:before {
+    position: absolute;
+    width: 6px; height: 6px;
+    background: #F13365;
+    top: 6px; left: 0;
+    content: '';
+}
+
+.btn {
+    height: 52px;
+    background: transparent;
+    border: 2px solid #F13365;
+    font-family: 'Gilroy', Arial, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    border-radius: 0;
+    color: #FFFFFF;
+    padding: 13px 36px;
+    transition: all 0.3s;
+}
+.btn:hover {
+    background: #F13365;
+    color: #FFFFFF;
+}
+.btn-box_right {
+    align-self: center;
+    margin-bottom: 42px;
+}
+.btn-box_bottom-section {
+    margin-top: 40px; margin-bottom: 30px;
+}
+.btn-box_vacancy {
+    margin-top: 19px;
+}
+    @media  screen and (max-width: 575px) {
+        .btn-box_bottom-section {
+            text-align: center;
+            max-width: 380px;
+            margin: 20px auto;
+        }
+    }
+
+[class^="ico-font-"], [class*=" ico-font-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'blackstudio' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 16px;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #fff;
+    transition: color 0.3s;
+    display: inline-block;
+    vertical-align: top;
+}
+    @media  screen and (max-width: 767px) {
+        [class^="ico-font-"], [class*=" ico-font-"] {
+            font-size: 12px;
+        }
+    }
+.ico-font-arrow-right,
+.ico-font-arrow-right-xlarge {
+    color: #404142;
+}
+.ico-font-arrow-right:before {
+    content: "\e900";
+}
+.ico-font-arrow-right-xlarge:before {
+    content: "\e901";
+}
+.ico-font-arrow-left-large:before {
+    content: "\e902";
+}
+.ico-font-arrow-right-large:before {
+    content: "\e903";
+}
+.ico-font-arrow-right-middle:before {
+    content: "\e904";
+}
+.ico-font-arrow-up:before {
+    content: "\e905";
+}
+.ico-font-arrow-left:before {
+    content: "\e906";
+}
+.arrow_color_pink {
+    color: #FFA2BD
+}
+:hover > .ico-font-arrow-right,
+:hover > .ico-font-arrow-right-xlarge {
+    color: #989696;
+}
+.arrow_color_gray {
+    color: #b0b0b0
+}
+:hover > .arrow_color_gray {
+    color: #f13365
+}
+.arrow_color_white,
+:hover > .arrow_color_white  {
+    color: #fff;
+}
+.arrow_color_pink-bright {
+    color: #F13365
+}
+:hover > .arrow_color_pink-bright {
+    color: #FF4778;
+}
+
+
+.ico {
+    display: inline-block;
+    vertical-align: top;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.ico-check {
+    width: 41px; height: 37px;
+    background-image: url("../images/assets/ico-check-white.svg");
+    margin-top: -2px;
+}
+.ico-heart {
+    width: 41px; height: 37px;
+    background-image: url("../images/assets/ico-heart-pink.svg");
+}
+.ico-key {
+    width: 39px; height: 39px;
+    background-image: url("../images/assets/ico-key-pink.svg");
+}
+.ico-strategy {
+    width: 43px; height: 33px;
+    background-image: url("../images/assets/ico-strategy-white.svg");
+}
+.ico-search {
+    width: 39px; height: 39px;
+    background-image: url("../images/assets/ico-search-pink.svg");
+}
+.ico-individual {
+    width: 39px; height: 39px;
+    background-image: url("../images/assets/ico-individual-pink.svg");
+}
+.ico-eye {
+    width: 17px; height: 10px;
+    background-image: url("../images/assets/ico-eye.svg");
+}
+.ico-eye_color_pink {
+    background-image: url("../images/assets/ico-eye-pink.svg");
+}
+.ico-energy {
+    width: 36px; height: 40px;
+    background-image: url("../images/assets/ico-energy-white.svg");
+    margin-top: 2px;
+}
+.ico-pig {
+    width: 39px; height: 39px;
+    background-image: url("../images/assets/ico-pig-pink.svg");
+}
+.ico-shield {
+    width: 34px; height: 42px;
+    background-image: url("../images/assets/ico-shield-pink.svg");
+}
+.ico-setting {
+    width: 40px; height: 39px;
+    background-image: url("../images/assets/ico-setting-white.svg");
+}
+.ico-map {
+    width: 33px; height: 43px;
+    background-image: url("../images/assets/ico-map-pink.svg");
+    margin-left: 2px;
+}
+.ico-target {
+    width: 39px; height: 39px;
+    background-image: url("../images/assets/ico-target-pink.svg");
+    margin-left: 2px;
+}
+.ico-diamond {
+    width: 40px; height: 36px;
+    background-image: url("../images/assets/ico-diamond-white.svg");
+    margin-top: 4px;
+}
+.ico-rocket {
+    width: 39px; height: 39px;
+    background-image: url("../images/assets/ico-rocket-pink.svg");
+}
+.ico-star {
+    width: 41px; height: 38px;
+    background-image: url("../images/assets/ico-star-pink.svg");
+}
+.ico-brand {
+    width: 39px; height: 39px;
+    background-image: url("../images/assets/ico-brand-white.svg");
+}
+.ico-product {
+    width: 39px; height: 39px;
+    background-image: url("../images/assets/ico-product-pink.svg");
+}
+.ico-creative {
+    width: 39px; height: 39px;
+    background-image: url("../images/assets/ico-creative-pink.svg");
+}
+.ico-experience {
+    width: 48px; height: 27px;
+    background-image: url("../images/assets/ico-experience-white.svg");
+}
+.ico-efficiency {
+    width: 41px; height: 38px;
+    background-image: url("../images/assets/ico-efficiency-pink.svg");
+}
+.ico-phone {
+    width: 14px; height: 13px;
+    background-image: url("../images/assets/ico-phone-white.png");
+}
+.ico-mail {
+    width: 16px; height: 11px;
+    background-image: url("../images/assets/ico-mail-white.png");
+}
+.ico-address {
+    width: 12px; height: 18px;
+    background-image: url("../images/assets/ico-map-white.png");
+}
+.ico-comfort {
+    width: 50px; height: 28px;
+    background-image: url("../images/assets/ico-comfort-white.svg");
+}
+.ico-world {
+    width: 39px; height: 39px;
+    background-image: url("../images/assets/ico-world-pink.svg");
+}
+.ico-flag {
+    width: 40px; height: 39px;
+    background-image: url("../images/assets/ico-flag-pink.svg");
+    margin-left: 2px;
+}
+.ico-plus {
+    position: relative;
+    width: 25px; height: 25px;
+    transition: transform 0.3s;
+}
+.ico-plus:before,
+.ico-plus:after {
+    position: absolute;
+    content: '';
+    height: 2px; width: 100%;
+    background: #404142;
+}
+.ico-plus:before {
+    top: 11px;
+}
+.ico-plus:after {
+    transform: rotate(90deg);
+    top: 10px
+}
+.ico-play {
+    width: 26px; height: 30px;
+    background-image: url("../images/assets/ico-play-white.svg");
+}
+
+
+.col-sm_adapt,
+.col-sm_adapt-service {
+    flex-basis: 33.3333%;
+    max-width: 33.3333%;
+}
+.col-md_adapt {
+    flex-basis: 50%;
+    max-width: 50%;
+}
+    @media  screen and (max-width: 991px) {
+        .col-sm_adapt {
+            flex-basis: 50%;
+            max-width: 50%;
+        }
+    }
+    @media  screen and (max-width: 767px) {
+        .col-sm_adapt-service {
+            flex-basis: 50%;
+            max-width: 50%;
+        }
+    }
+    @media  screen and (max-width: 575px) {
+        .col-sm_adapt,
+        .col-sm_adapt-service,
+        .col-md_adapt {
+            flex-basis: 100%;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+    }

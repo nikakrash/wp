@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Akrobat';
+    src: url('fonts/Akrobat.eot');
+    src: url('fonts/Akrobat.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Akrobat.woff') format('woff'),
+    url('fonts/Akrobat.ttf') format('truetype'),
+    url('fonts/Akrobat.svg#Akrobat') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Akrobat';
+    src: url('fonts/Akrobatbold.eot');
+    src: url('fonts/Akrobatbold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Akrobatbold.woff') format('woff'),
+    url('fonts/Akrobatbold.ttf') format('truetype'),
+    url('fonts/Akrobatbold.svg#Akrobat') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Akrobat';
+    src: url('fonts/Akrobatextrabold.eot');
+    src: url('fonts/Akrobatextrabold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Akrobatextrabold.woff') format('woff'),
+    url('fonts/Akrobatextrabold.ttf') format('truetype'),
+    url('fonts/Akrobatextrabold.svg#Akrobat') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('fonts/Gilroylight.eot');
+    src: url('fonts/Gilroylight.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Gilroylight.woff') format('woff'),
+    url('fonts/Gilroylight.ttf') format('truetype'),
+    url('fonts/Gilroylight.svg#Gilroy') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('fonts/Gilroybold.eot');
+    src: url('fonts/Gilroybold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Gilroybold.woff') format('woff'),
+    url('fonts/Gilroybold.ttf') format('truetype'),
+    url('fonts/Gilroybold.svg#Gilroy') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('fonts/Gilroyextrabold.eot');
+    src: url('fonts/Gilroyextrabold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Gilroyextrabold.woff') format('woff'),
+    url('fonts/Gilroyextrabold.ttf') format('truetype'),
+    url('fonts/Gilroyextrabold.svg#Gilroy') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('fonts/SFProDisplay.eot');
+    src: url('fonts/SFProDisplay.eot?#iefix') format('embedded-opentype'),
+    url('fonts/SFProDisplay.woff') format('woff'),
+    url('fonts/SFProDisplay.ttf') format('truetype'),
+    url('fonts/SFProDisplay.svg#SF Pro Display') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'blackstudio';
+    src:  url('fonts/blackstudio.eot?hq8605');
+    src:  url('fonts/blackstudio.eot?hq8605#iefix') format('embedded-opentype'),
+    url('fonts/blackstudio.ttf?hq8605') format('truetype'),
+    url('fonts/blackstudio.woff?hq8605') format('woff'),
+    url('fonts/blackstudio.svg?hq8605#blackstudio') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
